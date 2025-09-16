@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+}
+
+header {
+    height: 85px;
+    background-color: #002776;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    flex: 1;                
+    display: flex;
+    justify-content: space-evenly; 
+    font-size: 30px;
+}
+
+.nav a {
+    color: #FFF;
+}
+
+main {
+    flex: 1; 
+    background-color: #FFFDD0;
+}
+
+.camisetas {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    justify-content:space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.camisa h3 {
+    color: #1C27FA;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+}
+
+.camisa img {
+    height: 200px;
+    width: 200px;
+}
+
+.camisa p {
+    font-weight: bold;
+    font-size: 30px;
+    color: #002776;
+    text-align: center;
+}
+
+.camisa button {
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: #0DBE0D;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+}
+
+
+footer {
+    height: 153px;
+    background-color: #002776;
+}
